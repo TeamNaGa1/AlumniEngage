@@ -1,0 +1,85 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .mainText {
+    margin-top: 144px;
+}
+
+.mainText h1 {
+    font-size: 64px;
+}
+
+.mainText .top {
+    color: rgb(4, 138, 138);
+}
+
+.mainText p {
+    margin-top: 12px;
+}
+
+.mainText button {
+    width: 150px;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#login {
+    width: 150px;
+    padding: 15px;
+    font-size: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.card {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid black;
+}
+
+#webimg {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 15px 15px #899599;
+}
+
+#search {}
+
+.pre {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid black;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        /* Stack navigation items */
+        margin: 10px 0;
+    }
+    .card {
+        width: 45%;
+        /* Adjust width for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+        /* Full width for mobile */
+    }
+    nav ul li {
+        display: inline;
+        /* Horizontal navigation for mobile */
+        margin: 0 5px;
+    }
+}
